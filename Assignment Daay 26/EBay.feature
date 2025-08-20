@@ -1,4 +1,4 @@
-Feature: eBay Functional Tests
+Feature: eBay Tests
 
 Scenario: Login with valid credentials
 Given I open the eBay homepage

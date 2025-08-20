@@ -45,7 +45,6 @@ public class EbayStep {
 
     @Given("I am on the eBay homepage")
     public void iAmOnTheEbayHomepage() {
-        // Reuse or call openEbayHomepage
         if (driver == null) {
             openEbayHomepage();
         }
