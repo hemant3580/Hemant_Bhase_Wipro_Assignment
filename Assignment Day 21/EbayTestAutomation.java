@@ -190,10 +190,10 @@ public class EbayTestAutomation {
     Thread.sleep(3000);
     }
 
-    @AfterMethod
-    public void postCondition() {
-        driver.manage().deleteAllCookies();
-    }
+    //@AfterMethod
+    //public void postCondition() {
+        //driver.manage().deleteAllCookies();
+   // }
 
     @AfterTest
     public void teardown() {
