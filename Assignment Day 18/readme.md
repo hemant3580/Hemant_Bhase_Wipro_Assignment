@@ -1,4 +1,4 @@
-# Access Granted Notification
+# Access Given
 
 Hello Ma'am,
 
