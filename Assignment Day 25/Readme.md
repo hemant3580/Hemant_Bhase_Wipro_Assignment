@@ -26,3 +26,7 @@ Ebay is a leading global online marketplace where users can buy and sell new and
 - Selenium WebDriver (Browser Automation)
 - TestNG (Test Framework)
 - ChromeDriver (Browser Driver)
+
+## Test Cases and Test Plan
+- Created test cases
+- Created test plan
