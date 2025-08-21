@@ -1,5 +1,4 @@
 package cucumberTest;
-
 import io.cucumber.java.en.*;
 import org.openqa.selenium.*;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -9,7 +8,6 @@ import org.testng.Assert;
 import java.time.Duration;
 import java.util.ArrayList;
 import java.util.List;
-
 public class EbayStep {
     WebDriver driver;
     WebDriverWait wait;
@@ -66,14 +64,12 @@ public class EbayStep {
         wait.until(ExpectedConditions.visibilityOfElementLocated(By.id("gh-ac")));
     }
 
-    @Given("I am logged in")
-    public void loggedIn() {
-        openEbayHomepage();
-        clickSignIn();
-        enterValidUsernameAndPassword();
-        verifyLoggedIn();
+    @Given("I am on the eBay homepage1")
+    public void iAmOnTheEbayHomepage1() {
+        if (driver == null) {
+            openEbayHomepage();
+        }
     }
-
     @When("I add the product to the cart")
     public void addProductToCart() {
         WebElement ns = wait.until(ExpectedConditions.visibilityOfElementLocated(By.id("gh-ac")));
@@ -169,9 +165,9 @@ public class EbayStep {
 
         WebElement ct = driver.findElement(By.id("city"));
         ct.clear();
-        ct.sendKeys("Pune");
+        ct.sendKeys("Hyderabad");
 
-        driver.findElement(By.cssSelector("select > option[value='MH']")).click();
+        driver.findElement(By.cssSelector("select > option[value='TS']")).click();
 
         WebElement pc = driver.findElement(By.id("postalCode"));
         pc.clear();
@@ -213,5 +209,3 @@ public class EbayStep {
     public void verifyFilteredResults() {
     }
 }
-
-
