@@ -155,8 +155,8 @@ public class EbayTestAutomation {
    inp.sendKeys("Range Hills, Pune, Maharashtra");
    WebElement ct=driver.findElement(By.id("city"));
    ct.clear();
-   ct.sendKeys("Hyderabad");
-   driver.findElement(By.cssSelector("select>option[value=\"TS\"]"));
+   ct.sendKeys("Pune");
+   driver.findElement(By.cssSelector("select>option[value=\"MH\"]"));
    WebElement pc=driver.findElement(By.id("postalCode"));
    pc.clear();
    pc.sendKeys("411020");

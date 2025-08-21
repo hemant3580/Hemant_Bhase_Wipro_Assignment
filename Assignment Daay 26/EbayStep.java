@@ -169,9 +169,9 @@ public class EbayStep {
 
         WebElement ct = driver.findElement(By.id("city"));
         ct.clear();
-        ct.sendKeys("Hyderabad");
+        ct.sendKeys("Pune");
 
-        driver.findElement(By.cssSelector("select > option[value='TS']")).click();
+        driver.findElement(By.cssSelector("select > option[value='MH']")).click();
 
         WebElement pc = driver.findElement(By.id("postalCode"));
         pc.clear();
