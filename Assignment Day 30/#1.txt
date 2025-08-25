@@ -1,0 +1,12 @@
+Started by user Hemant Manohar Bhase
+Running as SYSTEM
+Building in workspace C:\Users\bhase\.jenkins\workspace\My_new_job
+[My_new_job] $ cmd /c call C:\Users\bhase\AppData\Local\Temp\jenkins6255828898786066972.bat
+
+C:\Users\bhase\.jenkins\workspace\My_new_job>java --version 
+openjdk 21.0.8 2025-07-15 LTS
+OpenJDK Runtime Environment Temurin-21.0.8+9 (build 21.0.8+9-LTS)
+OpenJDK 64-Bit Server VM Temurin-21.0.8+9 (build 21.0.8+9-LTS, mixed mode, sharing)
+
+C:\Users\bhase\.jenkins\workspace\My_new_job>exit 0 
+Finished: SUCCESS
